@@ -1,22 +1,98 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+		<title>Hello, world!</title>
+	</head>
+	<body>
+		<p>
+		<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Announcements" aria-expanded="true" aria-controls="collapseExample">
+			Announcments	
+		</button>
+		<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Program" aria-expanded="false" aria-controls="collapseExample">
+			Sunday Program
+		</button>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+		</p>
+		<div class="collapse show" id="Announcements">
+			<div class="card card-body">
+				<h1>Announcments</h1>
+				<ul class="list-group">
+					<li class="list-group-item"><b>Stake Temple Recommend Interviews:</b> For temple recommend renewals, contact Bro Rick Joseph (305) 992-3591. For members who receive their endowment, contact Bro Josh Hansen (385) 414-3573</li>
+					<li class="list-group-item"><b>Temple Schedule:</b><br />
+						Tuesday-Wednesday-Thursday: 6:15pm & 7:30pm.<br />
+						Friday: 8:00am, 10:00am, 12:00pm, 2:00pm, 4:00pm, 6:15pm, 7:30pm. <br />
+						Saturday: 8:00am, 9:15am, 10:30am, 11:45am, 1:00pm, 2:15pm. <br />
+						Last Tuesday of the month morning sessions: 6:00am, 8:00am, 10:00am. <br />
+						Temple will be open on: Friday, November 29 (Day after Thanksgiving), Regular Schedule<br />
+						<br />
+						<b>Temple closed:</b> The Fort Lauderdale Temple are closed on Sundays and Mondays, will be closed for two weeks for maintenance from Sunday October 27 – Monday November 11, Wednesday, November 27-Thursday
+						November 28 for Thanksgiving, Tuesday, December 24-Wednesday, <br />
+						December 25 for Christmas and Tuesday, December 31 for New Year.
+					</li>
+					<li class="list-group-item">
+						<b>Relief Society Family History Event:</b> Saturday, November 16 at 10am at the Stake Center. YW Come to enjoy the event with your mom.<br />
+					</li>
+					<li class="list-group-item">
+						<b>Ward Temple Preview:</b> Sunday, Nov 17th in the Young Women room.<br />
+						Children and Youth Face to Face Broadcast: Sunday, November 17, at 4p.m. with Elder Gerrit W. Gong of the Quorum of the Twelve Apostles and the Primary, Young Women, and Young Men General Presidents.
+					</li>
+					<li class="list-group-item">
+						<b>Ward Temple Day:</b> Saturday, November 23rd at 12 Noon.
+					</li>
+					<li class="list-group-item">
+						<b>Stake General Priesthood Meeting:</b><br />
+						<b>RESCHEDULED</b> to Sunday, November 24 at 6:00 p.m. at Stake Center (9900 West Flagler Street, Miami), all Aaronic and Melchizedek Priesthood holders in the stake are to attend.<br />
+						Refreshments provided
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="collapse" id="Program" onclick="$('#Announcements').collapse('hide')">
+			<div class="card card-body">
+				<h1> Sunday Program </h1>
+				<li class="list-group-item">
+					<b>Presiding:</b> Bishop Julio Duran<br />
+					<b>Conducting:</b> Brother Tyler Tanner<br />
+					<b>Music Conductor:</b> Sister Melanie Gloria<br />
+					<b>Organist:</b> Sister Amber Bowden<br />
+				</li>
+
+				<li class="list-group-item">
+					Welcome and Announcements<br />
+					<br />
+					Opening Hymn: #250 We Are All Enlisted<br />
+					Invocation: By invitation<br />
+					<br />
+					Ward Business<br />
+					<br />
+					Sacrament Hymn: #184 Upon the Cross of Calvary<br />
+					<hr />
+
+					<b>Blessing and Passing of the Sacrament</b><br /><br />
+
+					First Speakers: Brother Weston Bench, Bishop Duran<br /><br />
+
+					Intermediate Hymn: #274 The Iron Rod<br /><br />
+
+					Second Speakers: President Forrester, President Perez<br /><br />
+
+					Closing Hymn: #203 Keep the Commandments<br />
+					Benediction: By invitation
+				</li>
+			</div>
+		</div>
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
 </html>
